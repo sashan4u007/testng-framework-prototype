@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sauce Lab Suite">
+	<listeners>
+		<listener
+			class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
+	</listeners>
+	<test name="Sauce Lab Tests-1">
+		<classes>
+			<class name="tests.LoginTests" />
+			<class name="tests.InventoryListTest" />
+		</classes>
+	</test>
+</suite>
